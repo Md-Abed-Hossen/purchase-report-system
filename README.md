@@ -31,7 +31,7 @@ Prerequisites-
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-repo/purchase-report-system.git
+git clone https://github.com/Md-Abed-Hossen/purchase-report-system.git
 cd purchase-report-system/Laravel_backend
 ```
 2. Install dependencies:

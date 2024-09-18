@@ -1,6 +1,6 @@
 # Purchase Report System
 ## Overview
-This project is a full-stack system that fetches data from an API, stores it in a database, and generates a report on the top purchasers and total amount spent. The backend is built using Laravel, and the frontend is built using React. Tailwind CSS is not used, but raw CSS is applied to style the components.
+This project is a full-stack system that fetches data from an API, stores it in a database, and generates a report on the top purchasers and total amount spent. The backend is built using Laravel, and the frontend is built using React. I have applied raw CSS is  to style the components.
 
 ## Features
 

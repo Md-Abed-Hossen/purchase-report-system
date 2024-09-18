@@ -55,7 +55,7 @@ DB_PASSWORD=
 ```bash
 php artisan migrate
 ``` 
-The server will run on http://localhost:8000.
+The server will run on http://localhost:8000
 ## Frontend Setup (React)
 1. Navigate to the frontend directory:
 ```bash

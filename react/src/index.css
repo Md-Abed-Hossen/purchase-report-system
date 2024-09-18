@@ -1,0 +1,107 @@
+/* App.css */
+
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+  color: black; /* Default text color */
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px 15px 20px ;
+  color: white;
+  border-bottom: 1px solid #444;
+}
+
+h1 {
+  margin: 8px;
+  font-size: 2.5rem;
+  color: white
+}
+h2 {
+  margin:5px;
+  font-size: 2 rem;
+  color: black
+}
+
+.generate-button {
+  background-color: #2c8faa;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.generate-button:hover {
+  background-color: #3a9ddb;
+}
+
+.generate-button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+/* Error message styling */
+.error {
+  color: #ff4d4d;
+  margin: 20px 0;
+  font-size: 1rem;
+}
+
+/* Report container styling */
+.report-container {
+  margin: 20px auto;
+  max-width: 1200px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  color: black; /* Text color for table cells */
+}
+
+thead {
+  background-color: #61dafb;
+  color: white;
+}
+
+th {
+  font-size: 1.1rem;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tfoot {
+  background-color: #f0f2f5;
+  font-weight: bold;
+}
+
+tfoot td {
+  border-top: 2px solid #ddd;
+  padding: 10px;
+  color: black; /* Text color for table footer cells */
+}

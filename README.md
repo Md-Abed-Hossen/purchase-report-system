@@ -47,7 +47,7 @@ Update the following variables in `.env`:
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=data
+DB_DATABASE=report
 DB_USERNAME=root
 DB_PASSWORD=
 ``` 

@@ -40,7 +40,7 @@ composer install
 ``` 
 3. Configure environment variables: Copy the .env.example to `.env` and configure the database and API URL:
 ```bash
-cp .env.example .env
+copy .env.example .env
 ``` 
 Update the following variables in `.env`:
 ```bash
